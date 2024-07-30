@@ -1,6 +1,6 @@
 # Morthics-compiler
 
-Instrument wich can compile jsx styled morthics code into classic morthics code
+Instrument wich can compile jsx styled **[morthics](https://www.npmjs.com/package/morthics)** code into classic morthics code
 
 ## How to use
 
