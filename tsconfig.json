@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "moduleResolution": "NodeNext",
+        "esModuleInterop": true,
+        "target": "ESNext",
+        "noImplicitAny": true,
+        "removeComments": true,
+        "outDir": "release",
+        "preserveConstEnums": true,
+        "sourceMap": true,
+        "allowJs": true
+    },
+    "include": ["src/*"]
+}

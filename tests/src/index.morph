@@ -1,0 +1,14 @@
+export class Hi extends Component {
+    beforeRender() {
+        this.state.count = 0
+        this.ref.Button = new CounterButton()
+    }
+    render() {        
+        const { Button } = this.ref
+
+        return <Container x={10}>
+            <Text style={{fill: '#fff'}}>this.state.count</Text>
+            <Button count={this.state.count} increment={()=>this.state.count++}/>
+        </Container>
+    }
+}
