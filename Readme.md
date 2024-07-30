@@ -12,7 +12,7 @@ npm start YourProjectDirectory
 
 ### Before
 
-```typescript
+```TSX
     export class Hi extends Component {
         beforeRender(): void {
             this.state.count = 0
