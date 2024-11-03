@@ -10,7 +10,7 @@ npm start YourProjectDirectory
 
 ## Example
 
-### Before
+### SRC (Before compilate)
 
 ```jsx
     export class Hi extends Component {
@@ -21,15 +21,15 @@ npm start YourProjectDirectory
         render() {
             const { Button } = this.ref
 
-            return <Container x={10}>
-                <Text style={{fill: '#fff'}}>this.state.count</Text>
+            return <container x={10}>
+                <text style={{fill: '#fff'}}>this.state.count</text>
                 <Button count={this.state.count} increment={()=>this.state.count++}/>
-            </Container>
+            </container>
         }
     }
 ```
 
-### After
+### DIR (After compilate)
 
 ```typescript
 export class Hi extends Component {
